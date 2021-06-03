@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#03A9F4"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_marginRight="16dp"
+        android:shadowColor="#FAF6F6"
+        android:textColor="#FBFAFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add/View Employee"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/button_update"
+        android:layout_marginRight="16dp"
+        android:textColor="#F8F6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update Employee"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_marginRight="16dp"
+        android:textColor="#FBF9F9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Employee"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/button_search"
+        android:layout_marginRight="16dp"
+        android:textColor="#F8F6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Employee"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
